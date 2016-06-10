@@ -37,7 +37,7 @@ public:
     }
 
 };
-
+//Developed by Nishant Kakar
 class node
 {
     public:
@@ -68,7 +68,7 @@ class ucs
         frontier->depth=t;
         explored=NULL;
     }
-
+//Developed by Nishant Kakar
     void begin_search()
     {
         //Write code to check whether start node is destination node
@@ -96,7 +96,7 @@ class ucs
                 outfile<<"None"<<endl;
             }
     }
-
+//Developed by Nishant Kakar
     void add_children(string str,int d)
     {
         int x;
@@ -451,7 +451,7 @@ int main(int argc, char* argv[])
         }
     }
 
-
+//Developed by Nishant Kakar
     infile.close();
 
     return 0;
